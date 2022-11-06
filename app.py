@@ -2,6 +2,7 @@
 import streamlit as st
 import os
 import openai
+
 openai.api_key = ""
 
 api_key = st.sidebar.text_input("APIkey", type="password")
